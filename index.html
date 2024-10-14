@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Uttam Likhiya - Portfolio</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/5.7.0/github-markdown.css"
+      integrity="sha512-J3026fZbBSa9YlaavWKqMZFqEwSpCKtC1a+Ilhu1hzCzjqGKQXHT6XJc68/QbGyHbA3dTfxCdP+S4OM57yOc7Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/showdown/1.9.1/showdown.min.js"></script>
+  </head>
+  <body class="container markdown-body">
+    <div id="content"></div>
+  </body>
+  <script>
+    fetch("resume.md")
+      .then((response) => response.text())
+      .then((mdContent) => {
+        const mdParse = new showdown.Converter();
+        const htmlContent = mdParse.makeHtml(mdContent);
+        document.getElementById("content").innerHTML = htmlContent;
+      });
+  </script>
+</html>
