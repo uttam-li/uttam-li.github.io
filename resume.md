@@ -7,48 +7,56 @@
 
 ---
 
-[Experience](#experience)
-[Projects](#projects)
-[Skills](#skills)
-[Testimonials](#testimonials)
-
----
-
 ## Experience
 
-**Adis Technologies, Surat — ***Software Engineering Intern*****  
-*December 2023 - February 2024*
-
+<details>
+<summary>
+*December 2023 - February 2024*<br>
+**Adis Technologies, Surat — ***Software Engineering Intern*****
+</summary>
 - Contributed to a project serving **15 million users**, enhancing the front-end architecture with advanced functionalities, comprising **350,000 lines of code**.
 - Enhanced front-end performance by implementing **2 new features** and addressing **30+ minor bugs**, culminating in a notable **10% enhancement**. This overhaul ensures a seamless user experience across platforms.
 - Participated in the refinement of **Inventory management React Native applications**, expanding their capabilities through the integration of **2 new APIs** into the search filter and various core functionalities.
 - Played a role in **troubleshooting and resolving minor bugs** within the React Native app, ensuring stability and usability for end-users. Additionally, implemented **3 new features** in total, enhancing overall functionality and user experience.
 
-***Freelance Developer***  
-*April 2024 - April 2024*
+</details>
 
+<details>
+<summary>*April 2024 - April 2024*<br>
+***Freelance Developer***  
+</summary>
 - Worked on a freelancing project for a university, developing a **project management app** for both **web (React)** and **mobile (Expo)** platforms. Introduced new features like **search** and **file uploads** for the web and added features, **video support**, and **file upload** for the mobile app.
 - Contributed to both front-end and back-end development, fixing **bugs** and improving overall performance, ensuring a smooth and efficient user experience.
 
+</details>
+
 ## Projects
 
-**Billify — [Github](https://github.com/uttam-li/billify) | [Live](https://billify-psi.vercel.app/)**
-
+<details>
+<summary>**Billify — [Github](https://github.com/uttam-li/billify) | [Live](https://billify-psi.vercel.app/)**
+</summary>
 - Streamlined invoicing processes for 500,000 potential Micro, Small, and Medium Enterprises (MSMEs), facilitating cost-effective business operations.
 - Developed a web application with integrated CRM, enabling users to effortlessly generate e-invoices in PDF format. This solution optimized efficiency and fostered stronger client relations, offering a hassle-free invoicing experience.
 - ***Technologies: Next.js, Postgres, TanStack Query, Prisma, zod***
+</details>
 
-**YouTube Playlist Duration — [Github](https://github.com/uttam-li/yt-playlist-length) | [Live](https://yt-playlist-duration.vercel.app/)**
-
+<details>
+<summary>**YouTube Playlist Duration — [Github](https://github.com/uttam-li/yt-playlist-length) | [Live](https://yt-playlist-duration.vercel.app/)**
+</summary>
 - Developed a tool to calculate both the total duration of any YouTube playlist and the duration of individual videos, featuring custom search functionality.
 - Designed for students to accurately plan study sessions by estimating lecture playlist durations, offering playback speed options and multiple time format outputs.
 - ***Technologies: Next.js, Tailwind CSS, YouTube API v3, zod***
 
-**TechNotes — [Github](https://github.com/uttam-li/techNotes) | [Live](https://uttam-technotes.onrender.com/)**  
+</details>
 
+<details>
+<summary>**TechNotes — [Github](https://github.com/uttam-li/techNotes) | [Live](https://uttam-technotes.onrender.com/)**  
+</summary>
 - Built a notes tool for a repair shop, simplifying organization and accessibility of crucial information. Streamlined operations for faster repairs and satisfied customers.
 - Enhanced team collaboration in the repair shop by introducing easy task assignment to technicians and efficient tracking for managers. Boosted productivity for quicker turnaround.
 - ***Technologies: React, Redux, Node.js, Express, MongoDB, JWT***
+
+</details>
 
 ## Skills
 
@@ -66,5 +74,5 @@
 
 ---
 
-© to legally steal, visit GitHub | Powered by Markdown and Determination  
+© to legally steal, visit [GitHub](https://github.com/uttam-li/uttam-li.github.io) | Powered by Markdown and Determination  
 Experience the JavaScript bonanza portfolio, visit [here](https://puli.vercel.app).

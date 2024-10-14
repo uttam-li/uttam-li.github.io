@@ -1,5 +1,4 @@
 body {
-  font-family: serif !important;
   transition: background-color 0.3s ease, color 0.3s ease;
 }
 
@@ -19,13 +18,8 @@ img[alt="Email"] {
 }
 
 #content > :nth-child(2),
-#content > :last-child,
-#content > :nth-child(4) {
+#content > :last-child{
   text-align: center;
-}
-
-#content > :nth-child(4) > a {
-  margin: 0 4px;
 }
 
 h1,
