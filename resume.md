@@ -1,9 +1,9 @@
 # Uttam Likhiya
 
-[![GitHub Logo](./icons/github.svg)](https://github.com/uttam-li)
-[![LinkedIn Logo](./icons/linkedin.svg)](https://linkedin.com/in/uttamlikhiya)
-[![Twitter Logo](./icons/twitter-x.svg)](https://x.com/L1KH1YAUTTAM)
-[![Email](./icons/email.svg)](mailto:supercelluttam@gmail.com)
+[![GitHub Logo](./assets/icons/github.svg)](https://github.com/uttam-li)
+[![LinkedIn Logo](./assets/icons/linkedin.svg)](https://linkedin.com/in/uttamlikhiya)
+[![Twitter Logo](./assets/icons/twitter-x.svg)](https://x.com/L1KH1YAUTTAM)
+[![Email](./assets/icons/email.svg)](mailto:supercelluttam@gmail.com)
 
 ---
 
@@ -25,7 +25,7 @@
 <summary>*April 2024 - April 2024*<br>
 ***Freelance Developer***  
 </summary>
-- Worked on a freelancing project for a university, developing a **project management app** for both **web (React)** and **mobile (Expo)** platforms. Introduced new features like **search** and **file uploads** for the web and added features, **video support**, and **file upload** for the mobile app.
+-  Worked on a university **project management app** for web (React) and mobile (Expo), adding **search** and **file uploads** for the web, and **video support** and **file uploads** for mobile.
 - Contributed to both front-end and back-end development, fixing **bugs** and improving overall performance, ensuring a smooth and efficient user experience.
 
 </details>

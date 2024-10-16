@@ -1,29 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+<head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Uttam Likhiya - Portfolio</title>
+    
+    <!-- Primary Meta Tags -->
+    <title>Uttam Likhiya</title>
+    <meta name="title" content="Uttam Likhiya">
+    <meta name="description" content="I am a software developer, currently pursuing a Bachelor’s degree. I am capable of building for web and mobile platforms. I’m looking to work on interesting and challenging projects.">
+    <meta name="keywords" content="Uttam Likhiya, Portfolio, Full Stack Developer, Web Development, Software Engineer">
+    <meta name="author" content="Uttam Likhiya">
+    <meta name="robots" content="index, follow">
+    
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://uttam-li.github.io/">
+    <meta property="og:title" content="Uttam Likhiya">
+    <meta property="og:description" content="I am a software developer, currently pursuing a Bachelor’s degree. I am capable of building for web and mobile platforms. I’m looking to work on interesting and challenging projects.">
+    <meta property="og:image" content="https://uttam-li.github.io/assets/images/portfolio-preview.jpg">
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://uttam-li.github.io/">
+    <meta property="twitter:title" content="Uttam Likhiya">
+    <meta property="twitter:description" content="I am a software developer, currently pursuing a Bachelor’s degree. I am capable of building for web and mobile platforms. I’m looking to work on interesting and challenging projects.">
+    <meta property="twitter:image" content="https://uttam-li.github.io/assets/images/portfolio-preview.jpg">
+    
+    <!-- Styles -->
     <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/5.7.0/github-markdown.css"
-      integrity="sha512-J3026fZbBSa9YlaavWKqMZFqEwSpCKtC1a+Ilhu1hzCzjqGKQXHT6XJc68/QbGyHbA3dTfxCdP+S4OM57yOc7Q=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/5.7.0/github-markdown.css"
+        integrity="sha512-J3026fZbBSa9YlaavWKqMZFqEwSpCKtC1a+Ilhu1hzCzjqGKQXHT6XJc68/QbGyHbA3dTfxCdP+S4OM57yOc7Q=="
+        crossorigin="anonymous"
+        referrerpolicy="no-referrer"
     />
     <link rel="stylesheet" href="styles.css" />
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/showdown/1.9.1/showdown.min.js"></script>
-  </head>
-  <body class="container markdown-body">
+    
+    <!-- Canonical URL -->
+    <meta rel="canonical" href="https://uttam-li.github.io/" />
+</head>
+<body class="container markdown-body">
     <div id="content"></div>
-  </body>
-  <script>
-    fetch("resume.md")
-      .then((response) => response.text())
-      .then((mdContent) => {
-        const mdParse = new showdown.Converter();
-        const htmlContent = mdParse.makeHtml(mdContent);
-        document.getElementById("content").innerHTML = htmlContent;
-      });
-  </script>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/showdown/1.9.1/showdown.min.js"></script>
+    <script>
+        fetch("resume.md")
+            .then((response) => response.text())
+            .then((mdContent) => {
+                const mdParse = new showdown.Converter();
+                const htmlContent = mdParse.makeHtml(mdContent);
+                document.getElementById("content").innerHTML = htmlContent;
+            });
+    </script>
+</body>
 </html>
