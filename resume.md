@@ -5,8 +5,6 @@
 [![Twitter Logo](./assets/icons/twitter-x.svg)](https://x.com/L1KH1YAUTTAM)
 [![Email](./assets/icons/email.svg)](mailto:supercelluttam@gmail.com)
 
----
-
 ## Experience
 
 <details>
