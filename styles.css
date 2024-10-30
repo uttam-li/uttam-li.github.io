@@ -1,11 +1,7 @@
-body {
-  transition: background-color 0.3s ease, color 0.3s ease;
-}
-
 .container {
   max-width: 788px;
   margin: 0 auto;
-  padding: 0 10px;
+  padding: 0 16px;
 }
 
 img[alt="GitHub Logo"],
@@ -32,10 +28,8 @@ h6 {
   text-align: center;
 }
 
-@media (prefers-color-scheme: dark) {
-  img[alt="GitHub Logo"],
-  img[alt="Twitter Logo"],
-  img[alt="Email"] {
-    filter: invert(1);
-  }
+@media (max-width: 768px) {
+   body {
+    font-size: 0.85rem !important;
+   }
 }
