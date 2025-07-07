@@ -1,4 +1,4 @@
-import{r as i}from"./vendor-DJ1oPbzn.js";var y={exports:{}},p={};/**
+import{r as i}from"./vendor-wpXbf5jk.js";var y={exports:{}},p={};/**
  * @license React
  * react-jsx-runtime.production.min.js
  *
@@ -16,7 +16,7 @@ import{r as i}from"./vendor-DJ1oPbzn.js";var y={exports:{}},p={};/**
  *
  * This source code is licensed under the ISC license.
  * See the LICENSE file in the root directory of this source tree.
- */const M=r=>r.replace(/([a-z0-9])([A-Z])/g,"$1-$2").toLowerCase().trim(),n=(r,e)=>{const s=i.forwardRef(({color:t="currentColor",size:o=24,strokeWidth:a=2,absoluteStrokeWidth:c,className:d="",children:h,...u},k)=>i.createElement("svg",{ref:k,...L,width:o,height:o,stroke:t,strokeWidth:c?Number(a)*24/Number(o):a,className:["lucide",`lucide-${M(r)}`,d].join(" "),...u},[...e.map(([v,f])=>i.createElement(v,f)),...Array.isArray(h)?h:[h]]));return s.displayName=`${r}`,s};/**
+ */const M=r=>r.replace(/([a-z0-9])([A-Z])/g,"$1-$2").toLowerCase().trim(),n=(r,e)=>{const s=i.forwardRef(({color:t="currentColor",size:o=24,strokeWidth:a=2,absoluteStrokeWidth:c,className:d="",children:h,...k},u)=>i.createElement("svg",{ref:u,...L,width:o,height:o,stroke:t,strokeWidth:c?Number(a)*24/Number(o):a,className:["lucide",`lucide-${M(r)}`,d].join(" "),...k},[...e.map(([v,f])=>i.createElement(v,f)),...Array.isArray(h)?h:[h]]));return s.displayName=`${r}`,s};/**
  * @license lucide-react v0.344.0 - ISC
  *
  * This source code is licensed under the ISC license.
