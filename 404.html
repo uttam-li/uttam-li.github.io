@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Redirecting…</title>
+  </head>
+  <body>
+    <script>
+      // GitHub Pages: serve index.html for SPA deep links
+      // This script computes the repo base (first path segment) so it works
+      // for project pages hosted at /<repo>/ and for user/organization pages at /
+      (function () {
+        try {
+          const parts = window.location.pathname.split('/');
+          const repoSegment = parts[1];
+          const base = repoSegment ? `/${repoSegment}` : '';
+          const indexPath = (base || '/') + 'index.html';
+
+          fetch(indexPath).then(function (res) {
+            return res.text();
+          }).then(function (html) {
+            document.open();
+            document.write(html);
+            document.close();
+            // Keep the current URL so the SPA router can handle it
+            history.replaceState({}, '', window.location.href);
+          }).catch(function () {
+            // Fallback: redirect to repository root or site root
+            window.location.replace(base || '/');
+          });
+        } catch (e) {
+          window.location.replace('/');
+        }
+      })();
+    </script>
+  </body>
+</html>
