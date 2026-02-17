@@ -109,8 +109,15 @@
     <!-- Sitemap -->
     <link rel="sitemap" type="application/xml" href="/sitemap.xml" />
     
-    <!-- Google tag (gtag.js) removed — initialization moved to src/components/GoogleAnalytics.tsx -->
-    <script type="module" crossorigin src="/assets/index-DbnlqnD5.js"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-G20RE8B8M3"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){window.dataLayer.push(arguments);} 
+      window.gtag = window.gtag || gtag;
+      gtag('js', new Date());
+      gtag('config', 'G-G20RE8B8M3', { page_title: document.title, page_location: location.href });
+    </script>
+    <script type="module" crossorigin src="/assets/index-7DpGAWZ2.js"></script>
     <link rel="modulepreload" crossorigin href="/assets/vendor-DJ1oPbzn.js">
     <link rel="modulepreload" crossorigin href="/assets/utils-BWc0mi_T.js">
     <link rel="stylesheet" crossorigin href="/assets/index-BFtsP0i9.css">
